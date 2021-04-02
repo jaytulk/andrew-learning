@@ -6,10 +6,6 @@ using namespace std;
 
 int main()
 {
-    // Enter code below
-
-    // Scavenger edit section
-    // questions
     vector<string> questions;
 
     questions.push_back("This is question 1");
@@ -18,6 +14,7 @@ int main()
     questions.push_back("This is question 4");
     questions.push_back("This is question 5");
     questions.push_back("This is question 6");
+
     // Answers
     vector<string> answers;
     answers.push_back("B1FFG@#6");
@@ -28,29 +25,8 @@ int main()
     answers.push_back("Answer 5");
     answers.push_back("Answer 6");
 
-    // Scavenger edit section above
-    //Add var.
-    string userName1;
-
-    string userName2;
-
-    string userName3;
-
-    string userName4;
-
-    string userName5;
-
-    string userName6;
-
     string start1Text = "Hello! You clicked up then enter? That's the challenge mix. Get ready to be outsmarted!";
-    // Add var above
-    // programming
     cout << start1Text << endl;
-
-    for (int i = 0; i < 10; i++)
-    {
-        cout << "\a";
-    }
 
     const int MAX_PLAYERS = 13;
     vector<string> userNames;
@@ -119,11 +95,6 @@ int main()
     cout << "Click Enter to continue." << endl;
     cin.get();
 
-    // Get player input
-    // Compare with answers[0];
-
-    // start scavengerHunt
     cout << endl;
-
     return 0;
 }
