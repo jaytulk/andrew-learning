@@ -88,7 +88,7 @@ int main()
             }
         }
 
-        cout << "\nCorrect!!\a\a\a\a\n"
+        cout << "\nCorrect!!!!!!!!\a\a\a\a\n"
              << endl;
     }
 
